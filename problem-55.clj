@@ -7,7 +7,7 @@
         cnt (map count part)]
    (zipmap k cnt)))
 
-(deftest problem-54
+(deftest problem-55
   (is (= (solve [1 1 2 3 2 1 1]) {1 4, 2 2, 3 1}))
   (is (= (solve [:b :a :b :a :b]) {:a 2, :b 3}))
   (is (= (solve '([1 2] [1 3] [1 3])) {[1 2] 1, [1 3] 2})))
